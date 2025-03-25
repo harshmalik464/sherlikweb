@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSpinner } from '@fortawesome/free-solid-svg-icons';
+
+
 
 function MainComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
