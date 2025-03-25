@@ -1,10 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
-
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faSpinner, faBell, faShower, faFireExtinguisher, faToolbox, faSliders, faTools, faComments, faCheck, faBuilding, faIndustry, faHome, faLandmark, faShieldAlt, faUsers, faEye, faBullseye, faPhone, faWrench, faEnvelope, faMapMarkerAlt, faArrowRight, faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
-
-
+library.add(faSpinner, faBell, faShower, faFireExtinguisher, faToolbox, faSliders, faTools, faComments, faCheck, faBuilding, faIndustry, faHome, faLandmark, faShieldAlt, faUsers, faEye, faBullseye, faPhone, faWrench, faEnvelope, faMapMarkerAlt, faArrowRight, faChevronUp, faChevronDown);
 
 function MainComponent() {
   const [expandedService, setExpandedService] = useState(null);
@@ -1051,6 +1052,30 @@ function MainComponent() {
           }
         }
       `}</style>
+       <FontAwesomeIcon icon="spinner" spin />
+      <FontAwesomeIcon icon="bell" />
+      <FontAwesomeIcon icon="shower" />
+      <FontAwesomeIcon icon="fire-extinguisher" />
+      <FontAwesomeIcon icon="toolbox" />
+      <FontAwesomeIcon icon="sliders" />
+      <FontAwesomeIcon icon="tools" />
+      <FontAwesomeIcon icon="comments" />
+      <FontAwesomeIcon icon="check" />
+      <FontAwesomeIcon icon="building" />
+      <FontAwesomeIcon icon="industry" />
+      <FontAwesomeIcon icon="home" />
+      <FontAwesomeIcon icon="landmark" />
+      <FontAwesomeIcon icon="shield-alt" />
+      <FontAwesomeIcon icon="users" />
+      <FontAwesomeIcon icon="eye" />
+      <FontAwesomeIcon icon="bullseye" />
+      <FontAwesomeIcon icon="phone" />
+      <FontAwesomeIcon icon="wrench" />
+      <FontAwesomeIcon icon="envelope" />
+      <FontAwesomeIcon icon="map-marker-alt" />
+      <FontAwesomeIcon icon="arrow-right" />
+      <FontAwesomeIcon icon="chevron-up" />
+      <FontAwesomeIcon icon="chevron-down" />
     </div>
   );
 }
