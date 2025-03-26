@@ -25,25 +25,20 @@ function MainComponent() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Font Awesome for icons */}
-      <link
+      {/* Font Awesome Script */}
+        {/* Font Awesome for icons */}
+        <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       />
 
-      {/* Google Fonts for typography */}
+      {/* Google Fonts */}
       <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
         rel="stylesheet"
       />
 
-      {/* Tailwind CSS */}
-      <link
-        href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-        rel="stylesheet"
-      />
-
-      {/* Animate.css for animations */}
+      {/* Animate.css */}
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -153,6 +148,21 @@ function MainComponent() {
               </h2>
               <div className="w-24 h-[2px] bg-[#FF6B35] mx-auto"></div>
             </div>
+            <div className="text-center mb-16">
+              <div className="relative max-w-3xl mx-auto">
+                <img
+                  src="https://ucarecdn.com/140937ea-735d-4e17-8492-e8bb520970a6/-/format/auto/"
+                  alt="Professional Fire Safety Equipment"
+                  className="rounded-xl shadow-xl w-full"
+                />
+                <div className="mt-4 text-gray-600">
+                  <p className="text-lg">
+                    Complete fire alarm system including control panel, smoke
+                    detectors, sirens, and manual call points
+                  </p>
+                </div>
+              </div>
+            </div>
             <div className="space-y-16">
               {[
                 {
@@ -166,7 +176,6 @@ function MainComponent() {
                     "Smoke and heat detector installation",
                     "Control panel setup",
                     "Emergency lighting integration",
-                    "Voice evacuation system installation",
                     "Regular system testing",
                     "Maintenance planning",
                   ],
@@ -182,8 +191,8 @@ function MainComponent() {
                   features: [
                     "Sprinkler head placement design",
                     "Water flow calculations and testing",
-                    "Anti-freeze system installation",
-                    "Dry pipe systems installation",
+          
+                    "wet pipe systems installation",
                     "Regular testing setup",
                     "Backflow prevention",
                     "Emergency shut-off systems",
@@ -193,7 +202,7 @@ function MainComponent() {
                 },
                 {
                   id: "hydrant",
-                  icon: "fa-solid fa-fire-extinguisher",
+                  icon: "fa-solid fa-fire",
                   title: "Hydrant & Hose Installation",
                   description:
                     "Expert installation of fire hydrants and hose systems for optimal coverage.",
@@ -203,11 +212,29 @@ function MainComponent() {
                     "Water pressure optimization",
                     "Accessibility compliance",
                     "Main water supply connection",
-                    "Frost protection measures",
+                    ,
                     "Regular maintenance planning",
                   ],
                   applications:
                     "Industrial Parks, Campus Environments, Public Spaces",
+                },
+                {
+                  id: "extinguisher",
+                  icon: "fa-solid fa-fire-extinguisher",
+                  title: "Fire Extinguisher Systems",
+                  description:
+                    "Professional installation and maintenance of fire extinguisher systems for comprehensive fire safety coverage.",
+                  features: [
+                    "Fire extinguisher placement",
+                    "Regular inspections",
+                    "Refill and maintenance",
+                    
+                    "Staff training",
+                    "Emergency access planning",
+                    "Annual testing",
+                  ],
+                  applications:
+                    "Office Buildings, Schools, Retail Spaces, Industrial Facilities",
                 },
                 {
                   id: "control",
@@ -237,7 +264,7 @@ function MainComponent() {
                     "Regular system inspections",
                     "Performance testing",
                     "Preventive maintenance",
-                    "emergency support",
+                    // "emergency support",
                     "Parts replacement",
                     "System updates",
                     "Staff training",
@@ -358,7 +385,7 @@ function MainComponent() {
                     </h3>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
-                  To revolutionize automation, fire, and security solutions by providing innovative, reliable, and cost-effective technologies that enhance safety, efficiency, and productivity for businesses across multiple industries.
+                  To revolutionize automation, fire, and security solutions by providing innovative, reliable, and cost-effective technologies that enhance safety, efficiency, and productivity for businesses across multiple industries
                   </p>
                 </div>
                 <div className="bg-white rounded-xl p-8 shadow-sm">
@@ -491,10 +518,10 @@ function MainComponent() {
                           </div>
                           <div>
                             <p className="text-sm text-gray-500">
-                              Sales Inquiries
+                              Installation Support
                             </p>
                             <p className="text-lg font-semibold text-gray-900">
-                              +1 (555) 123-4567
+                              +91 8923624656
                             </p>
                           </div>
                         </div>
@@ -505,10 +532,10 @@ function MainComponent() {
                           </div>
                           <div>
                             <p className="text-sm text-gray-500">
-                              Installation Support
+                              sales Inquiries
                             </p>
                             <p className="text-lg font-semibold text-gray-900">
-                              +1 (555) 123-4568
+                              +91 9289471417
                             </p>
                           </div>
                         </div>
@@ -522,7 +549,7 @@ function MainComponent() {
                               Technical Support
                             </p>
                             <p className="text-lg font-semibold text-gray-900">
-                              +1 (555) 123-4569
+                              +91 8171939629
                             </p>
                           </div>
                         </div>
