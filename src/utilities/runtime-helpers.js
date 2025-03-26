@@ -35,7 +35,28 @@ function useUpload() {
     try {
       setLoading(true);
       let response;
-      if ("file" in input && input.file) {
+      if ('reactNativeAsset' in input && input.reactNativeAsset) {
+        if (input.reactNativeAsset.file) {
+          const formData = new FormData();
+          formData.append("file", input.reactNativeAsset.file);
+          response = await fetch("/api/upload", {
+            method: "POST",
+            body: formData
+          });
+        } else {
+          const response = await fetch("/api/upload/presign", {
+            method: 'POST',
+          })
+          const { secureSignature, secureExpire } = await response.json();
+          const result = await client.uploadFile(input.reactNativeAsset, {
+            fileName: input.reactNativeAsset.name ?? input.reactNativeAsset.uri.split("/").pop(),
+            contentType: input.reactNativeAsset.mimeType,
+            secureSignature,
+            secureExpire
+          });
+          return { url: `process.env.EXPO_PUBLIC_BASE_CREATE_USER_CONTENT_URL/${result.uuid}/`, mimeType: result.mimeType || null };
+        }
+      } else if ("file" in input && input.file) {
         const formData = new FormData();
         formData.append("file", input.file);
         response = await fetch("/api/upload", {

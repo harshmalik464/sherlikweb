@@ -1,43 +1,15 @@
 "use client";
 import { useState, useEffect } from "react";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faSpinner, faBell, faShower, faFireExtinguisher, faToolbox, faSliders, faTools, faComments, faCheck, faBuilding, faIndustry, faHome, faLandmark, faShieldAlt, faUsers, faEye, faBullseye, faPhone, faWrench, faEnvelope, faMapMarkerAlt, faArrowRight, faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import '@fortawesome/fontawesome-svg-core/styles.css';
 
-library.add(faSpinner, faBell, faShower, faFireExtinguisher, faToolbox, faSliders, faTools, faComments, faCheck, faBuilding, faIndustry, faHome, faLandmark, faShieldAlt, faUsers, faEye, faBullseye, faPhone, faWrench, faEnvelope, faMapMarkerAlt, faArrowRight, faChevronUp, faChevronDown);
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 
 function MainComponent() {
   const [expandedService, setExpandedService] = useState(null);
   const [showContactModal, setShowContactModal] = useState(false);
-  const seoMetadata = {
-    title: "Sharlik Solutions | Professional Fire Safety Installation Services",
-    description:
-      "Sharlik Solutions - Expert fire alarm system installation, sprinkler systems, and fire safety maintenance services. Sharlik's licensed fire safety contractors serving commercial and industrial buildings.",
-    keywords:
-      "Sharlik, Sharlik Solutions, fire safety installation, fire alarm systems, sprinkler system installation, fire safety maintenance, commercial fire protection, industrial fire safety, emergency fire services, fire system contractors",
-    openGraph: {
-      title:
-        "Sharlik Solutions - Professional Fire Safety Installation Services",
-      description:
-        "Sharlik Solutions - Expert fire safety system installation and maintenance. Licensed contractors for fire alarms, sprinklers, and emergency systems.",
-      image:
-        "https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/format/auto/",
-      url: "https://www.sharliksolutions.com",
-      type: "website",
-      site_name: "Sharlik Solutions",
-    },
-    additionalMetaTags: [
-      {
-        name: "author",
-        content: "Sharlik Solutions",
-      },
-      {
-        name: "application-name",
-        content: "Sharlik Solutions",
-      },
-    ],
-  };
 
   useEffect(() => {
     if (showContactModal) {
@@ -50,21 +22,30 @@ function MainComponent() {
     };
   }, [showContactModal]);
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
-      <></>
       <div className="min-h-screen">
         <section className="relative bg-white overflow-hidden">
           <div className="absolute inset-0 bg-[#FF6B35]/5 pattern-grid-lg opacity-40"></div>
 
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-center py-6">
+            <div className="flex justify-center py-6 relative">
+              <div className="absolute inset-0 bg-[#FF6B35]/5 pattern-grid-lg opacity-40"></div>
+              <div className="absolute left-1/2 -translate-x-1/2 w-48 h-48 bg-[#FF6B35]/5 rounded-full blur-3xl"></div>
               <a
                 href="#"
                 onClick={(e) => {
                   e.preventDefault();
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
+                className="relative"
               >
                 <img
                   src="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/format/auto/"
@@ -96,7 +77,7 @@ function MainComponent() {
                       className="inline-flex items-center justify-center px-10 py-4 border border-transparent text-lg font-medium rounded-md text-white bg-[#FF6B35] hover:bg-[#e55a24] transition-colors duration-300 shadow-lg w-full sm:w-auto"
                     >
                       Schedule Installation
-                      <i className="fas fa-arrow-right ml-2"></i>
+                      <></>
                     </button>
                   </div>
                 </div>
@@ -546,21 +527,6 @@ function MainComponent() {
                         </div>
                       </div>
 
-                      <div className="flex items-center space-x-4">
-                        <div className="w-12 h-12 bg-[#FF6B35]/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                          <i className="fas fa-map-marker-alt text-[#FF6B35] text-xl"></i>
-                        </div>
-                        <div>
-                          <p className="text-sm text-gray-500">Visit Us</p>
-                          <p className="text-lg font-semibold text-gray-900">
-                            123 Business Avenue
-                          </p>
-                          <p className="text-gray-500">
-                            Suite 100, Your City, State 12345
-                          </p>
-                        </div>
-                      </div>
-
                       <div className="pt-6 border-t border-gray-100">
                         <p className="text-sm text-gray-500 mb-4">
                           Connect With Us
@@ -952,21 +918,6 @@ function MainComponent() {
                     </a>
                   </div>
                 </div>
-
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-[#FF6B35]/10 rounded-lg flex items-center justify-center">
-                    <i className="fas fa-map-marker-alt text-[#FF6B35] text-xl"></i>
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-500">Visit Us</p>
-                    <p className="text-lg font-semibold text-gray-900">
-                      123 Business Avenue
-                    </p>
-                    <p className="text-gray-500">
-                      Suite 100, Your City, State 12345
-                    </p>
-                  </div>
-                </div>
               </div>
 
               <div className="mt-6 pt-6 border-t border-gray-100">
@@ -1052,30 +1003,6 @@ function MainComponent() {
           }
         }
       `}</style>
-       <FontAwesomeIcon icon="spinner" spin />
-      <FontAwesomeIcon icon="bell" />
-      <FontAwesomeIcon icon="shower" />
-      <FontAwesomeIcon icon="fire-extinguisher" />
-      <FontAwesomeIcon icon="toolbox" />
-      <FontAwesomeIcon icon="sliders" />
-      <FontAwesomeIcon icon="tools" />
-      <FontAwesomeIcon icon="comments" />
-      <FontAwesomeIcon icon="check" />
-      <FontAwesomeIcon icon="building" />
-      <FontAwesomeIcon icon="industry" />
-      <FontAwesomeIcon icon="home" />
-      <FontAwesomeIcon icon="landmark" />
-      <FontAwesomeIcon icon="shield-alt" />
-      <FontAwesomeIcon icon="users" />
-      <FontAwesomeIcon icon="eye" />
-      <FontAwesomeIcon icon="bullseye" />
-      <FontAwesomeIcon icon="phone" />
-      <FontAwesomeIcon icon="wrench" />
-      <FontAwesomeIcon icon="envelope" />
-      <FontAwesomeIcon icon="map-marker-alt" />
-      <FontAwesomeIcon icon="arrow-right" />
-      <FontAwesomeIcon icon="chevron-up" />
-      <FontAwesomeIcon icon="chevron-down" />
     </div>
   );
 }
