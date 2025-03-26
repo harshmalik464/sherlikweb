@@ -1,12 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 
-import '@fortawesome/fontawesome-svg-core/styles.css';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-
-
 function MainComponent() {
   const [expandedService, setExpandedService] = useState(null);
   const [showContactModal, setShowContactModal] = useState(false);
@@ -31,6 +25,30 @@ function MainComponent() {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* Font Awesome for icons */}
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      />
+
+      {/* Google Fonts for typography */}
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+
+      {/* Tailwind CSS */}
+      <link
+        href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+        rel="stylesheet"
+      />
+
+      {/* Animate.css for animations */}
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
       <div className="min-h-screen">
         <section className="relative bg-white overflow-hidden">
           <div className="absolute inset-0 bg-[#FF6B35]/5 pattern-grid-lg opacity-40"></div>
@@ -219,7 +237,7 @@ function MainComponent() {
                     "Regular system inspections",
                     "Performance testing",
                     "Preventive maintenance",
-                    "24/7 emergency support",
+                    "emergency support",
                     "Parts replacement",
                     "System updates",
                     "Staff training",
@@ -340,9 +358,7 @@ function MainComponent() {
                     </h3>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
-                    To become a leader in fire and security solutions, making
-                    safety accessible and efficient for businesses across
-                    multiple sectors.
+                  To revolutionize automation, fire, and security solutions by providing innovative, reliable, and cost-effective technologies that enhance safety, efficiency, and productivity for businesses across multiple industries.
                   </p>
                 </div>
                 <div className="bg-white rounded-xl p-8 shadow-sm">
@@ -519,10 +535,10 @@ function MainComponent() {
                         <div>
                           <p className="text-sm text-gray-500">Email Us</p>
                           <a
-                            href="mailto:info@sharliksolutions.com"
+                            href="sharlik.solutions@gmail.com"
                             className="text-lg font-semibold text-gray-900 hover:text-[#FF6B35] transition-colors"
                           >
-                            info@sharliksolutions.com
+                            sharlik.solutions@gmail.com
                           </a>
                         </div>
                       </div>
@@ -911,10 +927,10 @@ function MainComponent() {
                   <div>
                     <p className="text-sm text-gray-500">Email Us</p>
                     <a
-                      href="mailto:info@sharliksolutions.com"
+                      href="sharlik.solutions@gmail.com"
                       className="text-lg font-semibold text-gray-900 hover:text-[#FF6B35]"
                     >
-                      info@sharliksolutions.com
+                      sharlik.solutions@gmail.com
                     </a>
                   </div>
                 </div>
