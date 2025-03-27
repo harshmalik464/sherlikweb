@@ -364,7 +364,7 @@ function MainComponent() {
                   About Us
                 </span>
                 <h2 className="text-4xl font-inter font-bold text-gray-900 mt-3 mb-4">
-                  Professional Fire Safety Solutions
+                 Fire Safety Automation solution 
                 </h2>
                 <div className="w-24 h-1 bg-[#FF6B35] mx-auto mb-8"></div>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -880,7 +880,7 @@ function MainComponent() {
               </div>
             </div>
             <div className="mt-12 pt-8 border-t border-gray-200 text-center text-gray-600">
-              © 2025 Sharlik Automations. All rights reserved.
+              © 2025 Sharlik Solutions. All rights reserved.
             </div>
           </div>
         </footer>
@@ -905,12 +905,12 @@ function MainComponent() {
                     <i className="fas fa-phone text-[#FF6B35] text-xl"></i>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500">Sales Inquiries</p>
+                    <p className="text-sm text-gray-500">Installation Support</p>
                     <a
-                      href="tel:+15551234567"
+                      href="tel:+918923624656"
                       className="text-lg font-semibold text-gray-900 hover:text-[#FF6B35]"
                     >
-                      +1 (555) 123-4567
+                      +91 8923624656
                     </a>
                   </div>
                 </div>
@@ -921,13 +921,13 @@ function MainComponent() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">
-                      Installation Support
+                      Sales Inquiries
                     </p>
                     <a
-                      href="tel:+15551234568"
+                      href="tel:+919289471417"
                       className="text-lg font-semibold text-gray-900 hover:text-[#FF6B35]"
                     >
-                      +1 (555) 123-4568
+                      +91 9289471417
                     </a>
                   </div>
                 </div>
@@ -939,10 +939,10 @@ function MainComponent() {
                   <div>
                     <p className="text-sm text-gray-500">Technical Support</p>
                     <a
-                      href="tel:+15551234569"
+                      href="tel:+918171939629"
                       className="text-lg font-semibold text-gray-900 hover:text-[#FF6B35]"
                     >
-                      +1 (555) 123-4569
+                      +91 8171939629
                     </a>
                   </div>
                 </div>
