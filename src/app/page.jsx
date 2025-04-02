@@ -25,12 +25,152 @@ function MainComponent() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Font Awesome Script */}
-        {/* Font Awesome for icons */}
+      <head>
+        <title>
+          Sharlik Solutions - Professional Fire Safety & Security Systems
+          Installation Services
+        </title>
+        <meta
+          name="description"
+          content="Leading provider of fire safety and security solutions in India. Professional installation of fire alarms, sprinkler systems, CCTV cameras, and access control systems. 24/7 maintenance services available."
+        />
+        <meta
+          name="keywords"
+          content="fire safety, security systems, fire alarm installation, sprinkler system, CCTV installation, access control, emergency services, fire safety consultation, Sharlik Solutions, security services Delhi NCR"
+        />
+
+        <meta
+          property="og:title"
+          content="Sharlik Solutions - Fire Safety & Security Systems"
+        />
+        <meta
+          property="og:description"
+          content="Professional fire safety and security systems installation, maintenance, and emergency services. Trusted by businesses across India."
+        />
+        <meta
+          property="og:image"
+          content="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/format/auto/"
+        />
+        <meta property="og:url" content="https://sharliksolutions.com" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Sharlik Solutions - Fire Safety & Security Experts"
+        />
+        <meta
+          name="twitter:description"
+          content="Professional fire safety and security systems installation and maintenance services. Available 24/7 for emergencies."
+        />
+        <meta
+          name="twitter:image"
+          content="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/format/auto/"
+        />
+
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="author" content="Sharlik Solutions" />
+        <link rel="canonical" href="https://sharliksolutions.com" />
+
         <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      />
+          rel="icon"
+          type="image/png"
+          href="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/format/auto/"
+        />
+      </head>
+
+      <script type="application/ld+json">{`
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Sharlik Solutions",
+          "image": "https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/format/auto/",
+          "description": "Professional fire safety and security systems installation and maintenance services.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "IN",
+            "addressRegion": "Delhi NCR"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "28.6139",
+            "longitude": "77.2090"
+          },
+          "url": "https://sharliksolutions.com",
+          "telephone": "+919289471417",
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "17:00"
+          },
+          "sameAs": [
+            "https://www.facebook.com/sharliksolutions",
+            "https://www.twitter.com/sharliksolutions",
+            "https://www.linkedin.com/company/sharliksolutions",
+            "https://www.instagram.com/sharliksolutions"
+          ],
+          "priceRange": "₹₹",
+          "servesCuisine": "Fire Safety and Security Services"
+        }
+      `}</script>
+
+      <script type="application/ld+json">{`
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "Sharlik Solutions - Fire Safety Services",
+          "serviceType": "Fire Safety and Security Systems",
+          "areaServed": "Delhi NCR",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Fire Safety Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Fire Alarm System Installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sprinkler System Installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Security Camera Installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Maintenance Services"
+                }
+              }
+            ]
+          }
+        }
+      `}</script>
+
+      {/* Font Awesome Script */}
+      <script
+        src="https://kit.fontawesome.com/d3c5c6b4fc.js"
+        crossorigin="anonymous"
+      ></script>
 
       {/* Google Fonts */}
       <link
@@ -42,6 +182,11 @@ function MainComponent() {
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
+<link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       />
 
       <div className="min-h-screen">
@@ -70,17 +215,17 @@ function MainComponent() {
 
             <div className="py-12 md:py-20">
               <div className="grid lg:grid-cols-12 gap-8 items-center">
-                <div className="lg:col-span-6 space-y-8">
+                <div className="lg:col-span-7 space-y-8">
                   <div className="space-y-6 max-w-2xl">
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-inter font-bold text-gray-900 leading-tight">
                       Professional
                       <span className="text-[#FF6B35] block mt-2">
-                        Fire Safety Solutions
+                        Fire Safety & Security Solutions
                       </span>
                     </h1>
                     <p className="text-xl sm:text-2xl font-inter font-medium text-gray-600 leading-relaxed">
                       Expert installation & maintenance services for complete
-                      building safety
+                      building safety and security systems
                     </p>
                   </div>
 
@@ -90,34 +235,38 @@ function MainComponent() {
                       className="inline-flex items-center justify-center px-10 py-4 border border-transparent text-lg font-medium rounded-md text-white bg-[#FF6B35] hover:bg-[#e55a24] transition-colors duration-300 shadow-lg w-full sm:w-auto"
                     >
                       Schedule Installation
-                      <></>
                     </button>
                   </div>
                 </div>
 
-                <div className="lg:col-span-6">
-                  <div className="relative">
-                    <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <div className="lg:col-span-5">
+                  <div className="grid grid-cols-2 gap-6">
+                    <div className="rounded-lg overflow-hidden shadow-lg">
                       <img
-                        src="https://ucarecdn.com/1acc05e2-e6b2-4625-b2be-226bbe106bf1/-/format/auto/"
-                        alt="Professional Fire System Installation"
-                        className="w-full h-[400px] object-cover"
+                        src="https://ucarecdn.com/6c53fbad-9cfd-4d27-87e9-bf98135505ab/-/format/auto/"
+                        alt="Fire Extinguisher Installation"
+                        className="w-full h-48 object-cover"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent"></div>
                     </div>
-
-                    <div className="absolute -bottom-6 -left-6 w-48 h-48 rounded-lg overflow-hidden shadow-lg">
+                    <div className="rounded-lg overflow-hidden shadow-lg">
                       <img
                         src="https://ucarecdn.com/72d6dec0-9249-46f8-88ce-5aba98bbcfc6/-/format/auto/"
-                        alt="Fire Safety Equipment"
-                        className="w-full h-full object-cover"
+                        alt="Fire Safety Installation"
+                        className="w-full h-48 object-cover"
                       />
                     </div>
-                    <div className="absolute -top-6 -right-6 w-48 h-48 rounded-lg overflow-hidden shadow-lg">
+                    <div className="rounded-lg overflow-hidden shadow-lg">
                       <img
-                        src="https://ucarecdn.com/b88b0604-bec9-4acf-8dbe-67c1832ec9f8/-/format/auto/"
-                        alt="Fire Safety Installation"
-                        className="w-full h-full object-cover"
+                        src="https://ucarecdn.com/2092f897-e128-4bf4-a59e-5208f984aab0/-/format/auto/"
+                        alt="Security Camera Installation"
+                        className="w-full h-48 object-cover"
+                      />
+                    </div>
+                    <div className="rounded-lg overflow-hidden shadow-lg">
+                      <img
+                        src="https://ucarecdn.com/ce52968f-043f-47ed-aa97-9fe293d68d20/-/format/auto/"
+                        alt="Access Control System"
+                        className="w-full h-48 object-cover"
                       />
                     </div>
                   </div>
@@ -148,21 +297,6 @@ function MainComponent() {
               </h2>
               <div className="w-24 h-[2px] bg-[#FF6B35] mx-auto"></div>
             </div>
-            <div className="text-center mb-16">
-              <div className="relative max-w-3xl mx-auto">
-                <img
-                  src="https://ucarecdn.com/140937ea-735d-4e17-8492-e8bb520970a6/-/format/auto/"
-                  alt="Professional Fire Safety Equipment"
-                  className="rounded-xl shadow-xl w-full"
-                />
-                <div className="mt-4 text-gray-600">
-                  <p className="text-lg">
-                    Complete fire alarm system including control panel, smoke
-                    detectors, sirens, and manual call points
-                  </p>
-                </div>
-              </div>
-            </div>
             <div className="space-y-16">
               {[
                 {
@@ -175,7 +309,7 @@ function MainComponent() {
                     "System design and layout planning",
                     "Smoke and heat detector installation",
                     "Control panel setup",
-                    "Emergency lighting integration",
+                    // "Emergency lighting integration",
                     "Regular system testing",
                     "Maintenance planning",
                   ],
@@ -191,7 +325,7 @@ function MainComponent() {
                   features: [
                     "Sprinkler head placement design",
                     "Water flow calculations and testing",
-          
+                    // "Anti-freeze system installation",
                     "wet pipe systems installation",
                     "Regular testing setup",
                     "Backflow prevention",
@@ -212,7 +346,7 @@ function MainComponent() {
                     "Water pressure optimization",
                     "Accessibility compliance",
                     "Main water supply connection",
-                    ,
+                    "Frost protection measures",
                     "Regular maintenance planning",
                   ],
                   applications:
@@ -228,7 +362,7 @@ function MainComponent() {
                     "Fire extinguisher placement",
                     "Regular inspections",
                     "Refill and maintenance",
-                    
+                    "Compliance certification",
                     "Staff training",
                     "Emergency access planning",
                     "Annual testing",
@@ -264,12 +398,48 @@ function MainComponent() {
                     "Regular system inspections",
                     "Performance testing",
                     "Preventive maintenance",
-                    // "emergency support",
+                    "emergency support",
                     "Parts replacement",
                     "System updates",
                     "Staff training",
                   ],
                   applications: "All Commercial & Industrial Facilities",
+                },
+                {
+                  id: "surveillance",
+                  icon: "fa-solid fa-video",
+                  title: "Security Camera Systems",
+                  description:
+                    "State-of-the-art surveillance solutions for comprehensive property monitoring and security.",
+                  features: [
+                    "HD Security Cameras",
+                    "24/7 Video Monitoring",
+                    "Remote Access Systems",
+                    "Motion Detection",
+                    "Night Vision Capability",
+                    "Video Storage Solutions",
+                    "Mobile App Integration",
+                  ],
+                  applications:
+                    "Commercial Buildings, Industrial Facilities, Retail Spaces",
+                },
+                {
+                  id: "access-control",
+                  icon: "fa-solid fa-key",
+                  title: "Access Control Systems",
+                  description:
+                    "Advanced access management solutions to secure your premises and monitor entry points.",
+                  features: [
+                    "Keycard Systems",
+                    "Biometric Access",
+                    "Door Entry Systems",
+                  
+                   
+                    "Emergency Lockdown",
+                    "Access Logs & Reports",
+                  ],
+                  applications:
+                    "Office Buildings, Restricted Areas, Data Centers",
                 },
               ].map((service, index) => (
                 <div
@@ -364,7 +534,7 @@ function MainComponent() {
                   About Us
                 </span>
                 <h2 className="text-4xl font-inter font-bold text-gray-900 mt-3 mb-4">
-                 Fire Safety Automation solution 
+                  Professional Fire Safety Solutions
                 </h2>
                 <div className="w-24 h-1 bg-[#FF6B35] mx-auto mb-8"></div>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -385,7 +555,9 @@ function MainComponent() {
                     </h3>
                   </div>
                   <p className="text-gray-600 leading-relaxed">
-                  To revolutionize automation, fire, and security solutions by providing innovative, reliable, and cost-effective technologies that enhance safety, efficiency, and productivity for businesses across multiple industries
+                    To become a leader in fire and security solutions, making
+                    safety accessible and efficient for businesses across
+                    multiple sectors.
                   </p>
                 </div>
                 <div className="bg-white rounded-xl p-8 shadow-sm">
@@ -496,7 +668,6 @@ function MainComponent() {
                   Business Hours: Monday - Friday, 9:00 AM - 5:00 PM
                 </p>
               </div>
-
               <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 <div className="lg:col-span-1">
                   <div className="bg-white rounded-xl shadow-lg overflow-hidden">
@@ -518,10 +689,10 @@ function MainComponent() {
                           </div>
                           <div>
                             <p className="text-sm text-gray-500">
-                              Installation Support
+                              Sales Inquiries
                             </p>
                             <p className="text-lg font-semibold text-gray-900">
-                              +91 8923624656
+                              +91 9289471417
                             </p>
                           </div>
                         </div>
@@ -532,10 +703,10 @@ function MainComponent() {
                           </div>
                           <div>
                             <p className="text-sm text-gray-500">
-                              sales Inquiries
+                              Installation Support
                             </p>
                             <p className="text-lg font-semibold text-gray-900">
-                              +91 9289471417
+                              +91 8923624656
                             </p>
                           </div>
                         </div>
@@ -562,10 +733,10 @@ function MainComponent() {
                         <div>
                           <p className="text-sm text-gray-500">Email Us</p>
                           <a
-                            href="sharlik.solutions@gmail.com"
+                            href="mailto:info@sharliksolutions.com"
                             className="text-lg font-semibold text-gray-900 hover:text-[#FF6B35] transition-colors"
                           >
-                            sharlik.solutions@gmail.com
+                            info@sharliksolutions.com
                           </a>
                         </div>
                       </div>
@@ -749,8 +920,8 @@ function MainComponent() {
                   />
                 </a>
                 <p className="text-gray-600">
-                  Professional fire safety system installation and maintenance
-                  services.
+                  Professional fire safety and security system installation and
+                  maintenance services.
                 </p>
               </div>
               <div>
@@ -880,7 +1051,7 @@ function MainComponent() {
               </div>
             </div>
             <div className="mt-12 pt-8 border-t border-gray-200 text-center text-gray-600">
-              © 2025 Sharlik Solutions. All rights reserved.
+              © 2025 Sharlik Automations. All rights reserved.
             </div>
           </div>
         </footer>
@@ -905,12 +1076,12 @@ function MainComponent() {
                     <i className="fas fa-phone text-[#FF6B35] text-xl"></i>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500">Installation Support</p>
+                    <p className="text-sm text-gray-500">Sales Inquiries</p>
                     <a
-                      href="tel:+918923624656"
+                      href="tel:+919289471417"
                       className="text-lg font-semibold text-gray-900 hover:text-[#FF6B35]"
                     >
-                      +91 8923624656
+                      +91 9289471417
                     </a>
                   </div>
                 </div>
@@ -921,13 +1092,13 @@ function MainComponent() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">
-                      Sales Inquiries
+                      Installation Support
                     </p>
                     <a
-                      href="tel:+919289471417"
+                      href="tel:+918923624656"
                       className="text-lg font-semibold text-gray-900 hover:text-[#FF6B35]"
                     >
-                      +91 9289471417
+                      +91 8923624656
                     </a>
                   </div>
                 </div>
@@ -954,10 +1125,10 @@ function MainComponent() {
                   <div>
                     <p className="text-sm text-gray-500">Email Us</p>
                     <a
-                      href="sharlik.solutions@gmail.com"
+                      href="mailto:info@sharliksolutions.com"
                       className="text-lg font-semibold text-gray-900 hover:text-[#FF6B35]"
                     >
-                      sharlik.solutions@gmail.com
+                      info@sharliksolutions.com
                     </a>
                   </div>
                 </div>
