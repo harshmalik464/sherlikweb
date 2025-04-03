@@ -270,8 +270,8 @@ function MainComponent() {
                   features: [
                     "Sprinkler head placement design",
                     "Water flow calculations and testing",
-                    "Anti-freeze system installation",
-                    "Dry pipe systems installation",
+                    
+                    "pipe systems installation",
                     "Regular testing setup",
                     "Backflow prevention",
                     "Emergency shut-off systems",
