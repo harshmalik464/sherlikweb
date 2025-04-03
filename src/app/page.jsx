@@ -5,6 +5,28 @@ function MainComponent() {
   const [expandedService, setExpandedService] = useState(null);
   const [showContactModal, setShowContactModal] = useState(false);
 
+
+  const manifestData = {
+    name: "Sharlik Solutions",
+    short_name: "Sharlik", 
+    icons: [
+      {
+        src: "https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/192x192/-/format/png/",
+        sizes: "192x192",
+        type: "image/png"
+      },
+      {
+        src: "https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/512x512/-/format/png/",
+        sizes: "512x512", 
+        type: "image/png"
+      }
+    ],
+    theme_color: "#FF6B35",
+    background_color: "#ffffff",
+    display: "standalone",
+    start_url: "/"
+  };
+
   useEffect(() => {
     if (showContactModal) {
       document.body.classList.add("modal-open");
@@ -22,6 +44,10 @@ function MainComponent() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+
+
+  
 
   return (
     <div className="min-h-screen bg-white">
