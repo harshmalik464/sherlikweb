@@ -114,7 +114,7 @@ function MainComponent() {
           "sameAs": [
             "https://www.facebook.com/sharliksolutions",
             "https://www.twitter.com/sharliksolutions",
-            "https://www.linkedin.com/company/sharliksolutions",
+            "https://https://www.linkedin.com/company/sharlik-solutions?trk=public_profile_topcard-current-company",
             "https://www.instagram.com/sharliksolutions"
           ],
           "priceRange": "₹₹",
