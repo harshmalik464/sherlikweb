@@ -25,61 +25,6 @@ function MainComponent() {
 
   return (
     <div className="min-h-screen bg-white">
-      <head>
-        <title>
-          Sharlik Solutions - Professional Fire Safety & Security Systems
-          Installation Services
-        </title>
-        <meta
-          name="description"
-          content="Leading provider of fire safety and security solutions in India. Professional installation of fire alarms, sprinkler systems, CCTV cameras, and access control systems. 24/7 maintenance services available."
-        />
-        <meta
-          name="keywords"
-          content="fire safety, security systems, fire alarm installation, sprinkler system, CCTV installation, access control, emergency services, fire safety consultation, Sharlik Solutions, security services Delhi NCR"
-        />
-
-        <meta
-          property="og:title"
-          content="Sharlik Solutions - Fire Safety & Security Systems"
-        />
-        <meta
-          property="og:description"
-          content="Professional fire safety and security systems installation, maintenance, and emergency services. Trusted by businesses across India."
-        />
-        <meta
-          property="og:image"
-          content="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/format/auto/"
-        />
-        <meta property="og:url" content="https://sharliksolutions.com" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Sharlik Solutions - Fire Safety & Security Experts"
-        />
-        <meta
-          name="twitter:description"
-          content="Professional fire safety and security systems installation and maintenance services. Available 24/7 for emergencies."
-        />
-        <meta
-          name="twitter:image"
-          content="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/format/auto/"
-        />
-
-        <meta name="robots" content="index, follow" />
-        <meta name="language" content="English" />
-        <meta name="revisit-after" content="7 days" />
-        <meta name="author" content="Sharlik Solutions" />
-        <link rel="canonical" href="https://sharliksolutions.com" />
-
-        <link
-          rel="icon"
-          type="image/png"
-          href="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/format/auto/"
-        />
-      </head>
-
       <script type="application/ld+json">{`
         {
           "@context": "https://schema.org",
@@ -114,7 +59,7 @@ function MainComponent() {
           "sameAs": [
             "https://www.facebook.com/sharliksolutions",
             "https://www.twitter.com/sharliksolutions",
-            "https://https://www.linkedin.com/company/sharlik-solutions?trk=public_profile_topcard-current-company",
+            "https://www.linkedin.com/company/sharliksolutions",
             "https://www.instagram.com/sharliksolutions"
           ],
           "priceRange": "₹₹",
@@ -169,7 +114,7 @@ function MainComponent() {
       {/* Font Awesome Script */}
       <script
         src="https://kit.fontawesome.com/d3c5c6b4fc.js"
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
       ></script>
 
       {/* Google Fonts */}
@@ -309,7 +254,7 @@ function MainComponent() {
                     "System design and layout planning",
                     "Smoke and heat detector installation",
                     "Control panel setup",
-                    // "Emergency lighting integration",
+                    "Emergency lighting integration",
                     "Regular system testing",
                     "Maintenance planning",
                   ],
@@ -325,8 +270,8 @@ function MainComponent() {
                   features: [
                     "Sprinkler head placement design",
                     "Water flow calculations and testing",
-                    // "Anti-freeze system installation",
-                    "wet pipe systems installation",
+                    "Anti-freeze system installation",
+                    "Dry pipe systems installation",
                     "Regular testing setup",
                     "Backflow prevention",
                     "Emergency shut-off systems",
@@ -346,7 +291,7 @@ function MainComponent() {
                     "Water pressure optimization",
                     "Accessibility compliance",
                     "Main water supply connection",
-                    // "Frost protection measures",
+                    "Frost protection measures",
                     "Regular maintenance planning",
                   ],
                   applications:
@@ -398,7 +343,7 @@ function MainComponent() {
                     "Regular system inspections",
                     "Performance testing",
                     "Preventive maintenance",
-                    "emergency support",
+                    "24/7 emergency support",
                     "Parts replacement",
                     "System updates",
                     "Staff training",
@@ -433,8 +378,8 @@ function MainComponent() {
                     "Keycard Systems",
                     "Biometric Access",
                     "Door Entry Systems",
-                  
-                   
+                    "Visitor Management",
+                    "Time Attendance Integration",
                     "Emergency Lockdown",
                     "Access Logs & Reports",
                   ],
