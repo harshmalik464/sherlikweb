@@ -346,7 +346,7 @@ function MainComponent() {
                     "Water pressure optimization",
                     "Accessibility compliance",
                     "Main water supply connection",
-                    "Frost protection measures",
+                    // "Frost protection measures",
                     "Regular maintenance planning",
                   ],
                   applications:
