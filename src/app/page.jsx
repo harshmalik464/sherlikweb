@@ -136,24 +136,16 @@ function MainComponent() {
       {/* Favicon Links */}
       <link
         rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/32x32/-/format/png/-/quality/best/"
+        href="https://ucarecdn.com/8e111a4c-1504-47bf-b7a9-b61b152ba2c6/-/resize/32x32/-/format/png/"
       />
       <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/16x16/-/format/png/-/quality/best/"
+        rel="shortcut icon"
+        href="https://ucarecdn.com/8e111a4c-1504-47bf-b7a9-b61b152ba2c6/-/resize/32x32/-/format/png/"
       />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/180x180/-/format/png/-/quality/best/"
-      />
-      <link
-        rel="shortcut icon"
-        href="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/32x32/-/format/png/-/quality/best/"
+        href="https://ucarecdn.com/8e111a4c-1504-47bf-b7a9-b61b152ba2c6/-/resize/180x180/-/format/png/"
       />
 
       <div className="min-h-screen">
