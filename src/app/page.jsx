@@ -5,28 +5,6 @@ function MainComponent() {
   const [expandedService, setExpandedService] = useState(null);
   const [showContactModal, setShowContactModal] = useState(false);
 
-
-  const manifestData = {
-    name: "Sharlik Solutions",
-    short_name: "Sharlik", 
-    icons: [
-      {
-        src: "https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/192x192/-/format/png/",
-        sizes: "192x192",
-        type: "image/png"
-      },
-      {
-        src: "https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/512x512/-/format/png/",
-        sizes: "512x512", 
-        type: "image/png"
-      }
-    ],
-    theme_color: "#FF6B35",
-    background_color: "#ffffff",
-    display: "standalone",
-    start_url: "/"
-  };
-
   useEffect(() => {
     if (showContactModal) {
       document.body.classList.add("modal-open");
@@ -44,10 +22,6 @@ function MainComponent() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-
-
-
-  
 
   return (
     <div className="min-h-screen bg-white">
@@ -92,7 +66,6 @@ function MainComponent() {
           "servesCuisine": "Fire Safety and Security Services"
         }
       `}</script>
-
       <script type="application/ld+json">{`
         {
           "@context": "https://schema.org",
@@ -158,6 +131,29 @@ function MainComponent() {
 <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      />
+
+      {/* Favicon Links */}
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/32x32/-/format/png/-/quality/best/"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/16x16/-/format/png/-/quality/best/"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/180x180/-/format/png/-/quality/best/"
+      />
+      <link
+        rel="shortcut icon"
+        href="https://ucarecdn.com/77822f35-7b1c-4dc0-98a0-b4413350c8ce/-/resize/32x32/-/format/png/-/quality/best/"
       />
 
       <div className="min-h-screen">
@@ -296,8 +292,7 @@ function MainComponent() {
                   features: [
                     "Sprinkler head placement design",
                     "Water flow calculations and testing",
-                    
-                    "pipe systems installation",
+                    "Dry pipe systems installation",
                     "Regular testing setup",
                     "Backflow prevention",
                     "Emergency shut-off systems",
